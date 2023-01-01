@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>techMATE. | Welcome To The World Of Technology!</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="shortcut icon" href="favicon_io/favocir.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;500;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="images/eduford_img/LogoMakr-9vOLE0.png" alt="Error Loading Image"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="">POSTS</a></li>
+                    <li><a href="">SOLUTIONS</a></li>
+                    <li><a href="">BLOG</a></li>
+                    <li><a href="signin.html">LOG IN</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showmenu()"></i>
+        </nav>
+        <div class="text-box">
+            <h1>Interact technoLOGICALLY!</h1>
+            <p>Logical thinkers observe and analyze phenomena, reactions, and feedback and then draw conclusions based
+                on that input. We welcome you to interact with logical people and share your thoughts about the on-going
+                technologies. Also you can share your Programming Problems and get the SOLUTIONS</p>
+            <a href="" class="hero-btn">Visit Us To Know More...</a>
+        </div>
+
+    </section>
+
+
+    <!---------- Posts --------->
+
+    <section class="posts">
+        <h1>POSTS | What's in your MIND?</h1>
+        <p id="posts_main">It's always a good idea to develop your tech skills | Share your thoughts on how to do it?</p>
+        <div class="row">
+            <div class="posts-col">
+                <img src="images/eduford_img/user2.jpg" alt="John's image">
+                <h4>John Ibrahim</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti blanditiis maiores natus fugaconsequatur laudantium magni ullam accusantium quia.Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio numquam incidunt debitis culpa rationeodit aut nulla earum non. Dolores porro est voluptate aspernatur impedit praesentium obcaecati atqueaccusamus corrupti! </p>
+            </div>
+            <div class="posts-col">
+                <img src="images/eduford_img/user3.jpeg" alt="Erdum's image">
+                <h4>Erdum Adnan</h4>
+                <p>I was curious about how the web works. My curiosity drove me. Simple!
+                    I learned the web the hard way and spent my teenage learning it as a high school student.
+                    I started my career as a freelancer, which allowed me to work on real-world projects helping me gain experience quickly. I've been doing web development for 4+ years. And I love to work on new technologies and concepts.</p>
+            </div>
+            <div class="posts-col">
+                <img src="images/eduford_img/user1.jpg" alt="Sadia's image">
+                <h4>Elamie Jackson</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti blanditiis maiores natus fugaconsequatur laudantium magni ullam accusantium quia.Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consecteturicing eli adipist. Soluta eveniet quae accusamus velit impedit sed placeat, culpa voluptates cupiditate debitis minima. Harum nostrum cupiditate debitis aliquam modi fuga eius? </p>
+            </div>
+        </div>
+    </section>
+
+    <!--------- SOLUTIONS ----------->
+
+    <section class="solution">
+        <h1>Solution is HERE.</h1>
+        <p><b>SKILL's</b> can only be enhanced by implementation and teaching others. <br>
+        Provide the <b>SOLUTIONS</b> to others and enhance your <b>SKILL's.</b></p>
+        <div class="row">
+            <div class="solution-col">
+                <!-- <img src="images/eduford_img/london.png"> -->
+                <img src="images/eduford_img/p1.jpg" alt="Error Loading image">
+                <h4>How do we write a program in python which can compute the factorial of a given numbers.
+                    The results should be printed in a comma-separated sequence on a single line.</h4>
+                <hr>
+                <img src="images/eduford_img/sol1.jpg" alt="Error Loading image" class="sol">
+                <p class="sol_p">Solution:</p>
+                <p class="sol-main">Suppose the following input is supplied to the program:
+                    8
+                    Then, the output should be:
+                    40320
+                    
+                    Hints:
+                    In case of input data being supplied to the question, it should be assumed to be a console input.
+                    
+                    Solution:
+                    def fact(x):
+                        if x == 0:
+                            return 1
+                        return x * fact(x - 1)
+                    
+                    x=int(raw_input())
+                    print fact(x)</p>
+                <div class="layer">
+                    <h3>See more.</h3>
+                </div>
+            </div>
+            <div class="solution-col">
+                <!-- <img src="images/eduford_img/newyork.png"> -->
+                <img src="images/eduford_img/p2.jpeg" alt="Error Loading image">
+                <h4>How to define a class in python which has at least two methods:
+                    getString: to get a string from console input
+                    printString: to print the string in upper case.
+                    Also please include simple test function to test the class methods.</h4>
+                <hr>
+                    <img src="images/eduford_img/sol2.jpg" alt="Error Loading image" class="sol">
+                <p class="sol_p">Solution:</p>
+                <p class="sol-main">class InputOutString(object):
+                    def __init__(self):
+                        self.s = ""
+                
+                    def getString(self):
+                        self.s = raw_input()
+                
+                    def printString(self):
+                        print self.s.upper()
+                
+                strObj = InputOutString()
+                strObj.getString()
+                strObj.printString()</p>
+                <div class="layer">
+                    <h3>See more.</h3>
+                </div>
+            </div>
+            <div class="solution-col">
+                <!-- <img src="images/eduford_img/washington.png"> -->
+                <img src="images/eduford_img/p3.jpeg" alt="Error Loading image">
+                <h4>How do I start a web developer career? <br>
+                Need Guidance about the pathway to det internship as a Web Dev.</h4>
+                <hr>
+                <img  class="sol" src="images/eduford_img/sol3.jpeg" alt="Error Loading image">
+                <p class="sol_p">Solution:</p>
+                <p class="sol-main"> Build web developer skills. ... <br>
+                    Consider a degree in computer science or web design. ... <br>
+                    Take a course in web development. ... <br>
+                    Build a portfolio of web development work. ... <br>
+                    Get certified.</p>
+                <div class="layer">
+                    <h3>See more.</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!------------ BLOGS ------------>
+
+    <section class="blogs">
+        <h1>BLOGS: <br> Tech world is constantly changing, <br> and the best  tech blogs keep its readers updated.</h1>
+        <p id="blog_main"><b>Tech blogs</b> are a great way to reach a large audience <br> and earn revenue. To reach these <b>goals,</b> <br> however, is easier said than done.</p>
+        <div class="row">
+            <div class="blogs-col">
+                <img src="images/eduford_img/python.jpg" alt="Error Loading image" class="prf">
+                <h5>Tuesday, December 6, 2022</h5>
+                <h4>Python 3.11.1, 3.10.9, 3.9.16, 3.8.16, 3.7.16, and 3.12.0 alpha 3 are now available</h4>
+                <hr>
+                <p>Greetings! We bring you a slew of releases this fine Saint Nicholas / Sinterklaas day. Six simultaneous releases has got to be some record. There’s one more record we broke this time, you’ll see below.
+                
+                </p>
+
+
+            </div>
+            <div class="blogs-col">
+                <img src="images/eduford_img/tech.png" alt="Error Loading image" class="prf">
+                <h5>Sunday, December 11, 2022</h5>
+                <h4>Machine Learning EngineeratBlue River Technology</h4>
+                <hr>
+                <p>Jen Selby is a Machine Learning Engineer at Blue River Technology, a company specializing in computer vision and robotics. It develops farm machinery which can identify and weeds and spray them individually with herbicide as tractors move through fields.
+                </p>
+            </div>
+            <div class="blogs-col">
+                <img src="images/eduford_img/blog3.jpeg" alt="Error Loading image" class="prf">
+                <h5>Saturday, December 17, 2022</h5>
+                <h4>LARAVEL: Write code for the joy of it.</h4>
+                <hr>
+                <p>Laravel values beauty. We love clean code just as much as you do. Simple, elegant syntax puts amazing functionality at your fingertips. 
+                <br>
+                Every feature has been thoughtfully considered to provide a wonderful developer experience.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-------- Call to Action & About -------->
+
+    <section class="cta">
+        <h1>Enroll For Our Various Online Courses <br> Anywhere From The World</h1>
+        <a href="contact.html" class="hero-btn">CONTACT US</a>
+
+        <br><br><br><br>
+        <hr>
+    <div class="about">
+        <h4>About</h4>
+        <p>A user friendly website that has everything that a Logical person needs. <br>
+        Read Blogs, Interact with your MATE's, and much more fun is Awaiting.</p>
+        <div class="icons">
+            <i class="fab fa-facebook-f"><a href="https://www.facebook.com"></a></i>
+            <i class="fab fa-instagram"><a href="https://www.instagram.com"></a></i>
+            <i class="fab fa-linkedin"><a href="https://www.linkedin.com/home"></a></i>
+            <i class="fab fa-twitter"><a href="www.twitter.com"></a></i>
+        </div>
+    </div>
+    </section>
+
+
+    <!-- JAVASCRIPT FOR TOGGLE MENU -->
+    <script>
+        var navLinks = document.getElementById("navLinks")
+        function showmenu() {
+            navLinks.style.right = "0"
+        }
+        function hidemenu() {
+            navLinks.style.right = "-200px"
+        }
+    </script>
+</body>
+
+</html>

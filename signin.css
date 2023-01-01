@@ -1,0 +1,80 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-image:linear-gradient(rgba(4, 9 , 30, 0.7), rgba(4, 9 , 30, 0.7) ),url(images/eduford_img/signinbg.jpg);
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+    background-position: center;
+}
+.sign-in-form{
+    width: 300px;
+    height: 60%;
+    box-shadow: 0 0 3px 0 rgba(0,0,0,0.3);
+    background: linear-gradient(#29524A, #E9BCB7);
+    padding: 20px;
+    margin: 6% auto 2%;
+    text-align: center;
+    border-radius: 10px;
+}
+.sign-in-form h1{
+    color: #0077be;
+    margin-bottom: 30px;
+}
+.input-box{
+    border-radius: 20px;
+    padding:10px;
+    margin: 10px 0;
+    width: 90%;
+    border: 1px solid #999;
+    outline: none;
+}
+button{
+
+    color: #fff;
+    width: 100%;
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 15px;
+    margin: 10px 0;
+    border: none;
+    outline: none;
+    cursor: pointer;
+
+}
+.signin-btn{
+    background-color: #0077be;
+    color: #fff;
+}
+.twitter-btn{
+    background-color: #00acee;
+    color: #fff;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+hr{
+    margin-top: 30px;
+    width: 80%;
+}
+.or{
+    background:#fff;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin: -38px auto 10px;
+}
+p{
+    padding-top: 20px;
+    color: dimgray;
+
+}
+img{
+    width: 70px;
+    height: 70px;
+    border-radius:50%;
+    margin-top: -50px;
+    background-color: #fff;
+
+}
